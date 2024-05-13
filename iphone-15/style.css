@@ -1,0 +1,1491 @@
+@font-face {
+    font-family: my1;
+    src: url(/imgs/SF-Pro-Display-Regular.otf);
+}
+@font-face {
+    font-family: my2;
+    src: url(/imgs/SF-Pro-Display-Semibold.otf);
+}
+@font-face {
+    font-family: my3;
+    src: url(/imgs/SF-Pro-Display-Light.otf);
+}
+body {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: my1;
+    background-color: #fff;
+    color: rgb(29, 29, 31);
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+.warning {
+    width: 100%;
+    height: 40px;
+}
+
+.warning-info {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 13.6px;
+    height: 3vh;
+    color: rgba(7, 7, 7, 0.8);
+    background-color: rgb(245, 245, 247);
+}
+
+.navigation {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    margin: auto;
+    backdrop-filter: blur(25px);
+}
+
+.apple {
+    width: 110px;
+    height: 17px;
+    padding-top: 15px;
+    margin-left: 27%;
+    transition: filter 0.3s ease;
+}
+
+.item {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    gap: 70px;
+    margin-top: -15px;
+    font-size: 12px;
+    margin-left: 30px;
+
+}
+
+.info-nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(white, white, white, 0.99);
+    margin: auto;
+    backdrop-filter: blur(1350px);
+    border-bottom: 1px solid rgb(194, 194, 194);
+    font-family: my1;
+    display: flex;
+    justify-content: row;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 11000;
+    transition: top 0.3s;
+    display: none;
+    animation: slideDown 0.5s forwards;
+}
+@keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+.iphone-nav{
+    font-size: 21px;
+    font-weight: 540;
+    margin-left: 29%;
+    margin-top: 11px;
+    font-family: my2;
+}
+
+.find-img{
+    max-width: 16px;
+    max-height: 16px;
+    position: absolute;
+    margin-top: -10px;
+}
+
+.item-nav-iphone{
+    margin-left:60%;
+    font-size: 14px;
+    display: flex;
+    justify-content: row;
+    gap: 30px;
+    backdrop-filter: blur(25px);
+    font-family: my3;
+    margin-top: -61px;
+}
+.review{
+    color: rgb(108, 108, 108);
+}
+
+.buy-nav{
+    background: #0071e3;
+    max-height: 20px;
+    min-width: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.phone-first{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 270px;
+}
+.text-for-iphone-first{
+    font-size: 28px;
+    font-family: my2;
+    position: absolute;
+    margin-top: -500px;
+}
+.buy-first{
+    background: #0071e3;
+    padding: 11px 21px 11px 21px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 34px;
+    font-size: 17px;
+    margin-top: 600px;
+}
+.center{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.difference{
+    font-family: my2;
+    font-size: 56px;
+    margin-top: 400px;
+    margin-left: 600px;
+}
+.img-fake{
+    margin-left: 200px;
+    height: auto;
+    width: 93%;
+    margin-top: 100px;
+}
+.all-iphone{
+    font-size: 56px;
+    font-family: my2;
+    margin-left: 600px;
+}
+.switch-second {
+    position: relative;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.switch-second::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+}
+
+.switch-1-second { 
+        background-image: url(/imgs/circle-color.png);
+        width: 26px;
+        height: 26px;
+        box-shadow: inset 0 .5px 1px rgba(0, 0, 0, .5);
+}
+.switch-2-second {
+     background-color: rgb(235, 208, 210);
+     width: 26px;
+     height: 26px;
+     box-shadow: inset 0 .5px 1px rgba(0, 0, 0, .5);
+}
+.switch-3-second {
+     background-color: rgb(236, 230, 198);
+     width: 26px;
+     height: 26px;
+     box-shadow: inset 0 .5px 1px rgba(0, 0, 0, .5);
+}
+.switch-4-second {
+    background-color: rgb(207, 217, 201);
+    width: 26px;
+    height: 26px;
+    box-shadow: inset 0 .5px 1px rgba(0, 0, 0, .5);
+}
+.switch-5-second {
+    background-color: rgb(213, 221, 224);
+    width: 26px;
+    height: 26px;
+    box-shadow: inset 0 .5px 1px rgba(0, 0, 0, .5);
+}
+.switch-6-second {
+    background-color: rgb(60, 64, 66);
+    width: 26px;
+    height: 26px;
+    box-shadow: inset 0 .5px 1px rgba(0, 0, 0, .5);
+}
+
+.selected-second::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+    border-radius: 50%;
+    border: 2px solid #0071e3;
+}
+
+.switch-label-second {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.numbering-second {
+    display: none;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.numbering-second.active {
+    display: block;
+}
+
+.numbering-1-second {
+    margin-top: -80px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 32px;
+    font-size: 12px;
+    font-family: my1;
+    padding: 4px 6px;
+}
+.numbering-2-second {
+    margin-top: -80px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 32px;
+    font-size: 12px;
+    font-family: my1;
+    padding: 4px 6px;
+}
+.numbering-3-second {
+    margin-top: -80px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 32px;
+    font-size: 12px;
+    font-family: my1;
+    padding: 4px 6px;
+}
+.numbering-4-second {
+    margin-top: -80px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 32px;
+    font-size: 12px;
+    font-family: my1;
+    padding: 4px 6px;
+}
+.numbering-5-second {
+    margin-top: -80px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 32px;
+    font-size: 12px;
+    font-family: my1;
+    padding: 4px 6px;
+}
+.numbering-6-second {
+    margin-top: -80px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 32px;
+    font-size: 12px;
+    font-family: my1;
+    padding: 4px 6px;
+}
+
+.photo-animation {
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
+
+.photo-animation.fade-out {
+    opacity: 0;
+}
+
+.photo-animation.fade-in {
+    opacity: 1;
+}
+.button-work-iphone{
+    background-color: rgb(232 232 237/70%);
+    width: 300px;
+    border-radius: 32px;
+}
+#photoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    height: 800px;
+}
+.fixed {
+    position: fixed;
+    z-index: 10000;
+}
+.fixed-1{
+    position: fixed;
+    z-index: 10000;
+}
+.fixed-2{
+    position: fixed;
+    z-index: 10000;
+}
+.go-learn-all{
+    font-size: 56px;
+    font-family: my2;
+    margin-left: 600px;
+    margin-top: 200px;
+}
+#numberings{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    z-index: 20000;
+}
+.Dynamic-Island{
+    font-size: 80px;
+    font-family: my2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.info-iphone{
+    width: 100%;
+}
+.span-black-text-iphone{
+    color: #000;
+}
+.info-Dynamic-Island{
+    font-size: 24px;
+    font-family: my2;
+    color: #86868b;
+    text-align: center;
+}
+.Remove-bg-iphone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 30%;
+}
+.display{
+    font-weight: 600;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    border-radius: 32px;
+    background-color: rgb(232 232 237/70%);
+    width: 300PX;
+    max-height: 52px;
+    min-height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.span-svg{
+    margin-left: 20px;
+}
+.display-div{
+    margin-top: -3200px;
+}
+.info-second-iphone{
+    margin-top: -120px;
+    width: 100%;
+    height: 2000px;
+    background-image: linear-gradient(180deg,rgb(245,245,247),rgb(255,255,255) 676px)
+}
+.strong-all-iphone{
+    font-size: 80px;
+    font-family: my2;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+.new-corpus-with-tutanium{
+    color: #86868b;
+    font-family: my2;
+    font-size: 21px;
+    margin-left: 900px;
+}
+.center-img-front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -250px;
+    width: 100%;
+}
+.info-with-front{
+    margin-top: 600px;
+}
+.info-with-front-1{
+    margin-left: -900px;
+    margin-top: 400px;
+    color: #86868b;
+    font-size: 21px;
+    font-family: my2;
+}
+.info-with-front-2{
+    margin-left: -650px;
+    color: #86868b;
+    font-size: 21px;
+    font-family: my2;
+    margin-top: -190px;
+}
+.info-with-front-3{
+    margin-left: -350px;
+    color: #86868b;
+    font-size: 21px;
+    font-family: my2;
+    margin-top: -250px;
+}
+.display-1{
+    font-weight: 600;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    border-radius: 32px;
+    background-color: rgb(232 232 237/70%);
+    width: 300PX;
+    max-height: 52px;
+    min-height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.display-div-1{
+    margin-left: 44%;
+    position: absolute;
+}
+.display-2{
+    font-weight: 600;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    border-radius: 32px;
+    background-color: rgb(232 232 237/70%);
+    width: 300PX;
+    max-height: 52px;
+    min-height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.display-div-2{
+    margin-left: 44%;
+    position: absolute;
+}
+.display-div-3{
+    margin-top: -100px;
+    margin-left: 44%;
+    position: absolute;
+}
+.display-3{
+    font-weight: 600;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    border-radius: 32px;
+    background-color: rgb(232 232 237/70%);
+    width: 300PX;
+    max-height: 52px;
+    min-height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.display-4{
+    font-weight: 600;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    border-radius: 32px;
+    background-color: rgb(232 232 237/70%);
+    width: 300PX;
+    max-height: 52px;
+    min-height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display-div-4{
+    margin-left: 44%;
+    position: absolute;
+    margin-top: 1900px;
+    z-index: 100;
+
+}
+.display-5{
+    font-weight: 600;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    border-radius: 32px;
+    background-color: rgb(232 232 237/70%);
+    width: 300PX;
+    max-height: 52px;
+    min-height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display-div-5{
+    margin-left: 44%;
+    position: absolute;
+    margin-top: 1650px;
+    z-index: 100;
+
+}
+.display-6{
+    font-weight: 600;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    border-radius: 32px;
+    background-color: rgb(232 232 237/70%);
+    width: 300PX;
+    max-height: 52px;
+    min-height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display-div-6{
+    margin-left: 44%;
+    position: absolute;
+    margin-top: 2750px;
+    z-index: 100;
+}
+.new-camera-text{
+    font-size: 80px;
+    font-family: my2;
+    width: 100%;
+    line-height: 1.05;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.new-camera-photo{
+    margin-left: 28%;
+    margin-top: 100px;
+}
+.info-one-new-camera{
+    font-family: my2;
+    color: #86868b;
+    text-align: start;
+    margin-left: 800px;
+    font-size: 21px;
+    margin-top: -230px;
+}
+.info-two-new-camera{
+    font-family: my2;
+    color: #86868b;
+    text-align: start;
+    margin-left: 1400px;
+    font-size: 21px;
+    margin-top: -270px;
+    line-height: 1.381002381;
+    
+}
+.big-later{
+    font-size: 48px;
+    line-height: 1.181002381;
+}
+.info-two-preinfo-new-camera{
+    font-family: my2;
+    color: #86868b;
+    text-align: start;
+    margin-left: 1400px;
+    font-size: 21px;
+    margin-top: 30px;
+    line-height: 1.381002381;
+}
+.new-camera-info{
+    height: 1800px;
+}
+.new-portret-info{
+    font-size: 80px;
+    margin-left: 800px;
+    font-family: my2;
+}
+.picture-with-portret{
+    margin-left: 28%;
+}
+.new-portret{
+    width: 100%;
+}
+.new-portret-info-preinfo{
+    margin-left: 800px;
+    font-size: 21px;
+    font-family: my2;
+    color: #86868b;
+    margin-top: -80px;
+    margin-bottom: 50px;
+}
+.portret-with-iphone{
+    margin-left: 35%;
+    margin-top: 100px;
+}
+.info-with-portyer-iphone{
+    font-size: 21px;
+    font-family: my2;
+    color: #86868b;
+    margin-left: 1300px;
+    margin-top: -660px;
+}
+.big-text{
+    font-size: 48px;
+    font-family: my2;
+}
+.text-info-iphone{
+    color: #86868b;
+    font-size: 21px;
+    margin-left: 890px;
+    margin-top: 200px;
+}
+.container {
+    display: flex;
+    margin-left: 880px;
+}
+.box {
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.box img {
+    width: 100%;
+    height: 100%;
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+.box-1, .img-box-1{
+    min-width: 653px;
+    min-height: 490px;
+}
+.box-2, .img-box-2{
+    min-width: 368px;
+    min-height: 490px;
+}
+.box-3, .img-box-3{
+    min-width: 653px;
+    min-height: 490px;
+}
+.box-4, .img-box-4{
+    min-width: 368px;
+    min-height: 490px;
+}
+.box-5, .img-box-5{
+    min-width: 653px;
+    min-height: 490px;
+}
+.box-6, .img-box-6{
+    min-width: 368px;
+    min-height: 490px;
+}
+.box-7, .img-box-7{
+    min-width: 653px;
+    min-height: 490px;
+}
+.disabled .box img {
+    filter: grayscale(100%);
+}
+.backButton,
+.forwardButton {
+    padding: 10px 10px;
+    background-color: rgba(210,210,215,.64);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    position: absolute;
+    border-radius: 100px;
+}
+.forwardButton {
+    background-color:rgba(210,210,215,.64);
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    position: absolute;
+    margin-left: 80px;
+}
+.backButton:disabled {
+    background-color: rgba(210, 210, 215, 0.228);
+    cursor: not-allowed;
+}
+.forwardButton:disabled {
+    background-color: rgba(210, 210, 215, 0.228);
+    cursor: not-allowed;
+}
+
+.arrow-slider-prev{
+    width: 12px;
+    height: 12px;
+    padding: 4px;
+    transform: rotate(180deg);
+}
+
+.arrow-slider-next{
+    width: 12px;
+    height: 12px;
+    padding: 4px;
+}
+.button-container{
+    margin-left: 800px;
+}
+.all-day-div{
+    width: 100%;
+}
+.all-day-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 80px;
+    line-height: 1.05;
+    font-family: my2;
+    margin-top: 500px;
+}
+.all-day-img{
+    margin-top: 60px;
+}
+.live-all-day-jack{
+    font-size: 16px;
+    margin-top: 605px;
+    font-family: my3;
+    color: rgb(0,102,204);
+}
+.info-all-day-one{
+    color: #86868b;
+    font-family: my1;
+    font-size: 21px;
+    margin-left: 900px;
+    margin-top: 800px;
+    position: relative;
+    z-index: 100;
+}
+.mega-big-later{
+    font-size: 80px;
+    line-height: 1.181002381;
+    font-family: my2 ;
+}
+.info-all-day-two{
+    color: #86868b;
+    font-family: my1;
+    font-size: 21px;
+    margin-left: 900px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 100;
+}
+.plus-3-hours-iphone-12{
+    width: 330px;
+    border-top: 1px solid rgb(110,110,115);
+    margin-left: 1400px;
+    margin-top: -370px;
+    z-index: 100;
+    position: relative;
+    padding-top: 20px;
+}
+.plus-3-hours-iphone-12 img{
+    width: 40px;
+    height: 40px;
+}
+.text-for-plus-hours{
+    font-family: my2;
+    color: #86868b;
+    font-size: 21px;
+    margin-left: 90px;
+    margin-top: -40px;
+}
+.cheap-a16-bionic{
+    width: 100%;
+    background-color: rgb(0,0,0);
+    margin-top: 400px;
+    height: 1800px;
+}
+.cheap-a16-bionic-text{
+    font-size: 80px;
+    font-family: my2;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+}
+.img-cheap-info{
+    margin-top: 550px;
+}
+.cheap-bionic-16-info-with-img{
+    color: #86868b;
+    text-align: center;
+    margin-top: 1200px;
+    font-family: my2;
+    font-size: 21px;
+}
+.white-text{
+    color: #fff;
+}
+.div-info-with-cheap-a16{
+    width: 330px;
+    border-top: 1px solid #e2e2ec;
+    padding-top: 20px;
+    z-index: 100;
+    position: relative;
+    margin-top: 1500px;
+    margin-left: 1100px;
+    font-family: my2;
+}
+.text-with-cheap-a16-div{
+    color: #86868b;
+    margin-left: 80px;
+    margin-top: -60px;
+    font-family: my2;
+    font-size: 21px;
+}
+
+.withd{
+    width: 100%;
+}
+.usb-div{
+    width: 100%;
+    position: absolute;
+}
+.usb-info-one-text{
+    font-family: my2;
+    color: #86868b;
+    font-size: 80px;
+    margin-top: 2100px;
+    margin-left: 880px;
+}
+.usb-info-two-text{
+    margin-left: 880px;
+    color: #86868b;
+    margin-top: -30px;
+    font-family: my2;
+    font-size: 21px;
+}
+.ipad-iphone-mac-photo-img{
+    margin-top: 20px;
+    margin-left: 11.4%;
+}
+.extra-iphone-div{
+    position: absolute;
+    margin-top: 3230px;
+    width: 100%;
+    background-color: rgb(245,245,247);
+    height: 2300px;
+}
+.extra-iphone-img{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.extra-iphone-text-one{
+    font-size: 64px;
+    color: #fff;
+    font-family: my2;
+    margin-left: 850px;
+    z-index: 100;
+    position: relative;
+    margin-top: 300px;
+    line-height: 1.0625;
+}
+.black-ground{
+    width: 1120px;
+    height: 347px;
+    background-color: #000;
+    margin-top: 300px;
+}
+.info-with-black-ground{
+    font-family: my2;
+    color: #86868b;
+    font-size: 19px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.all-new-div{
+    background-color: #fff;
+    width: 1120px;
+    height: 885px;
+    margin-top: 300px;
+}
+.items-three{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.text-items-three{
+    font-family: my2;
+    font-size: 64px;
+    margin-left: 200px;
+    line-height: 1.0625;
+    width: 816px;
+    border-bottom: 1px solid #d2d2d7;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+.text-with-div-tree{
+    color: #86868b;
+    font-family: my2;
+    font-size: 19px;
+    margin-left: 200px;
+}
+.second-text-with-div-tree{
+    color: #86868b;
+    font-family: my2;
+    font-size: 19px;
+    margin-left: 700px;
+    margin-top: -215px;
+}
+.big-text-span-black{
+    color: #000;
+    font-family: my2;
+    font-size: 48px;
+    line-height: 1.0625;
+}
+.family-text{
+    font-size: 48px;
+    font-family: my2;
+    margin-left: 650px;
+}
+.family-share{
+    width: 100%;
+    margin-top: 4000px;
+}
+.family-container{
+    width: 1260px;
+    height: 724px;
+    background-color: rgb(245,245,247);
+    border-radius: 27px;
+}
+.family-container-img{
+    margin-left: 600px;
+    margin-top: 50px;
+    position: absolute;
+}
+.text-one-with-family-container{
+    font-size: 28px;
+    font-family: my2;
+    margin-left: -830px;
+    position: absolute;
+    margin-top: -350px;
+}
+.arrow-one-with-family-container{
+    transform: rotate(-90deg);
+    width: 16px;
+    fill: #86868b;
+    margin-left: 30px;
+}
+.text-two-with-family-container{
+    line-height: 1.4705882353;
+    font-family: my3;
+    font-size: 17px;
+    margin-left: -810px;
+    position: absolute;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(210,210,215);
+    width: 350px;
+}
+.iphone-and-mac-text-family-container{
+    font-size: 28px;
+    font-family: my2;
+    margin-left: -810px;
+    position: absolute;
+    margin-top: 450px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(210,210,215);
+    width: 350px;
+}
+.second-arrow{
+    transform: rotate(90deg);
+    margin-left: 300px;
+    margin-top: -25px;
+}
+.iphone-and-airpods-text-family-container{
+    font-size: 28px;
+    font-family: my2;
+    margin-left: -810px;
+    position: absolute;
+    margin-top: 620px;
+    padding-bottom: 20px;
+    width: 350px;
+
+}
+.threeth-arrow{
+    transform: rotate(90deg);
+    margin-left: 300px;
+    margin-top: -25px;
+}
+.text-one-more-info-for-iphone{
+    font-family: my2;
+    font-size: 48px;
+    margin-left: 630px;
+}
+.more-info-for-iphone{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(245,245,247);
+    margin-top: 900px;
+    height: 2700px;
+}
+.link-more-info-for-iphone{
+    color: #0071e3;
+    font-size: 21px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-left: 1580px;
+    margin-top: -90px;
+}
+.iphone-info-div{
+    margin-left: -40px;
+    width: 1260px;
+    background-color: #fff;
+    border-radius: 27px;
+    height: 1800px;
+}
+.iphone-15-info-div{
+    margin-top: 80px;
+    margin-left: 23%;
+}
+.iphone-15-pro-info-div{
+    margin-top: 80px;
+    margin-left: 53%;
+    margin-top: -381px;
+}
+.circle-1-iphone{
+    margin-top: 490px;
+    margin-left: -180px;
+    position: absolute;
+}
+.circle-2-iphone{
+    margin-top: 30px;
+    margin-left: -180px;
+    position: absolute;
+}
+.new-1{
+    color: #B64400;
+    font-size: 16px;
+    position: absolute;
+    font-family: my3;
+    margin-left: 16.3%;
+    margin-top: 60px;
+}
+.new-2{
+    color: #B64400;
+    font-size: 16px;
+    position: absolute;
+    font-family: my3;
+    margin-left: 31%;
+    margin-top: 60px;
+}
+.iphone-button-1{
+    color: #86868b;
+    font-size: 17px;
+    font-family: my3;
+    position: absolute;  
+    margin-left: 14.3%;
+    margin-top: 200px;
+}
+.iphone-button-2{
+    color: #fff;
+    font-size: 17px;
+    font-family: my3;
+    position: absolute;  
+    margin-left: 29.7%;
+    margin-top: 190px;
+    width: 137px;
+    height: 44px;
+    background-color: #0071e3;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+.iphone-15-iphone-info{
+    font-size: 28px;
+    font-family: my2;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 15%;
+}
+.iphone-15-pro-iphone-info{
+    font-size: 28px;
+    font-family: my2;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 29%;
+}
+.info-with-iphone-15{
+    width: 372px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 260px;
+    margin-top: 350px;
+}
+.big-text-div-iphone{
+    font-size: 28px;
+    font-family: my2;
+}
+.small-text-div-iphone{
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin-top: -30px;
+    padding-bottom: 40px;
+}
+.info-with-iphone-15-pro{
+    width: 372px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 640px;
+    margin-top: -680px;
+}
+.top-img{
+    margin-top: 40px;
+}
+.iphone-dedline_info{
+    font-size: 48px;
+    font-family: my2;
+}
+.small-text-iphone{
+    font-size: 12px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #86868b;
+}
+.check{
+    font-size: 28px;
+    font-family: my2;
+}
+.iphone-check{
+    font-size: 28px;
+    font-family: my2;
+}
+.iphone-2-check{
+    margin-top: -20px;
+}
+.iphone-3-check{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.dedline_info{
+    margin-top: 3000px;
+    position: relative;
+    z-index: 200;
+    margin-left: 650px;
+}
+.footer-info-1{
+    font-size: 12px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #86868b;
+    margin-left: 500px;
+    margin-top: -400px;
+}
+.footer-info-2{
+    font-family: my2;
+    font-size: 14px;
+    margin-left: 500px;
+}
+.footer-div-1{
+    width: 100%;
+    background-color: #f5f5f7;
+    z-index: 300;
+    position: relative;
+    margin-top: 400px;
+}
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f7;
+    margin-top: 30px;
+}
+.footer-info {
+    font-size: 12px;
+    color: #86868b;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: #f5f5f7;
+}
+
+li{
+    padding-top: 14px;
+}
+.apple-link{
+    color: #86868b;
+}
+
+.footer-div {
+    min-width: 100%;
+    height: 550px;
+    background-color: rgb(245, 245, 247);
+    margin-top: 1578px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;;
+    position: absolute;
+}
+
+.info-tv-footer {
+    color: rgba(108, 108, 108, 0.8);
+    font-size: 13px;
+    border-bottom: 1px solid rgba(141, 141, 141, 0.8);
+    width: 980px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: -200px;
+    margin-top: 20px;
+}
+
+.subscription-info-footer {
+    margin-bottom: -10px;
+}
+
+.products-div-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 785px;
+    margin-top: 25px;
+}
+
+.products-p-footer {
+    font-size: 14px;
+}
+
+
+.Mac-footer,
+.iPad-footer,
+.iPhone-footer,
+.Watch-footer,
+.AirPods-footer,
+.Tv-footer,
+.AirTag-footer {
+    margin-bottom: 10px;
+    color: rgba(108, 108, 108, 0.8);
+    font-size: 12px;
+}
+
+.div-item-footer {
+    position: absolute;
+}
+
+.account-div-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1045px;
+    margin-top: -248px;
+}
+
+.account-p-footer {
+    font-size: 14px;
+}
+
+
+.settings-ID,
+.iCloud {
+    margin-bottom: 10px;
+    color: rgba(108, 108, 108, 0.8);
+    font-size: 12px;
+}
+
+
+.servis-div-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1045px;
+    margin-top: 10px;
+}
+
+.servis-p-footer {
+    font-size: 14px;
+}
+
+.servis-p-footer{
+    color: black;
+    font-size: 14px;
+}
+.Apple-One-footer,
+.Apple-TV-footer,
+.Apple-Music-footer,
+.Apple-Arcade-footer,
+.Apple-Podcasts-footer,
+.Apple-Books-footer,
+.App-Store-footer {
+    margin-bottom: 10px;
+    color: rgba(108, 108, 108, 0.8);
+    font-size: 12px;
+}
+
+.buisness-div-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1305px;
+    margin-top: -366px;
+}
+
+.buisness-p-footer {
+    font-size: 14px;
+}
+
+.buisness{
+    margin-bottom: 10px;
+    color: rgba(108, 108, 108, 0.8);
+    font-size: 12px;
+}
+
+
+.values-div-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1565px;
+    margin-top: -76px;
+}
+
+.values-p-footer {
+    font-size: 14px;
+}
+
+.accessibility,
+.environment,
+.privacy{
+    margin-bottom: 10px;
+    color: rgba(108, 108, 108, 0.8);
+    font-size: 12px;
+}
+
+.info-div-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1565px;
+    margin-top: 6px;
+}
+
+.info-p-footer {
+    font-size: 14px;
+}
+
+.jobs,
+.invest,
+.conformity{
+    margin-bottom: 10px;
+    color: rgba(108, 108, 108, 0.8);
+    font-size: 12px;
+}
+
+.near-shop{
+    color: rgba(108, 108, 108, 0.8);
+    font-size: 13px;
+    border-bottom: 1px solid rgba(141, 141, 141, 0.8);
+    width: 980px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 80px;
+    margin-top: 70px;
+}
+
+.near{
+    position: absolute;
+    color: rgb(0, 102, 204);
+    margin-top: 50px;
+    margin-left: -900px;
+}
+
+.shop-off{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -647px;
+}
+
+.apple-footer-info{
+    display: flex;
+    flex-direction: row;
+    color: rgba(108, 108, 108, 0.8);
+    font-size: 12px;
+    gap: 30px;
+}
+
+.Apple-Inc{
+    margin-left: 785px;
+}
+
+.ur-policy{
+    margin-left: 30px;
+    border-right: 1px solid rgba(0, 0, 0, 0.72);
+    padding-right: 9px;
+    height: 16px;
+    color: rgba(0, 0, 0, 0.72);
+}
+
+.policy-info{
+    margin-left: -21px;
+    border-right: 1px solid rgba(0, 0, 0, 0.72);
+    padding-right: 9px;
+    height: 16px;
+    color: rgba(0, 0, 0, 0.72);
+}
+
+.map-web{
+    margin-left: -21px;
+    padding-right: 9px;
+    height: 16px;
+    color: rgba(0, 0, 0, 0.72);
+}
+.country{
+    margin-left: 260px;
+}
+.function-info-footer{
+    margin-left: -160px;
+    margin-top: 20px;
+}
